@@ -1,17 +1,17 @@
-# random# Problem 3: PDA Simulator for the Language \( L = \{ w c w^R \} \)
+# Problem 3: PDA Simulator for the language L = { w c w^R }
 
-This project implements a **Pushdown Automaton (PDA)** to determine whether an input string belongs to the language \( L = \{ w c w^R \} \).
-- \( w \) is a string of "0"s & "1"s.
-- "c" is used to separate the string into two parts: \( w \) & \( w^R \).
-- \( w^R \) is the reverse of \( w \).
+This project implements a **Pushdown Automaton (PDA)** to determine whether an input string belongs to the language "L = { w c w^R }".
+- "w" is a string of "0"s & "1"s.
+- "c" is used to separate the string into two parts: "w" & "w^R".
+- "w^R" is the reverse of "w".
 
 
-The solution fulfills all the requirements mentioned in **Problem 3** by explicitly implementing stack operations and state transitions without using any external libraries.
+The solution fulfills all the requirements mentioned in Problem 3 by explicitly implementing stack operations and state transitions without using any external libraries.
 
 ---
 
 ## Requirements that I met
-1. **PDA simulation**: Processes input string(s) and check whether they belong to \( L \)
+1. **PDA simulation**: Processes input string(s) and check whether they belong to the language "L"
 2. **Handling explicit stack operations**: Handle custom stack implementation with "pop", "push", "peek", and "empty" functions
 3. **Implement transition function**: Manages state changes based on input symbols & stack contents
 
